@@ -1,0 +1,20 @@
+
+
+<table  class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Qty</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let inv of inventory;let i = index">
+        <td>{{ inv.name }}</td>
+        <td>{{ inv.price }}</td>
+        <td>{{ inv.qty }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+
